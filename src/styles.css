@@ -1,0 +1,33 @@
+h2 {
+  font-family: Poppins;
+  font-weight: 900;
+  font-style: Black;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-family: Poppins;
+  font-weight: 900;
+  font-style: Black;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+h3 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
