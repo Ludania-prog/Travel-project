@@ -71,11 +71,9 @@ section {
 
 footer {
   color: white;
-  background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
-    )
-    url("/src/images/footerimg.png");
+  background-image:
+    linear-gradient(rgba(39, 32, 68, 0.5), rgba(39, 32, 68, 0.5)),
+    url("images/footerimg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
