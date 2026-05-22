@@ -6,6 +6,10 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
 
 header {
   background-image:
@@ -60,7 +64,52 @@ header a {
   padding: 16px 32px;
 }
 
-@media (max-width: 800px) {
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    )
+    url("/src/images/footerimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 1.5;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  opacity: 0.9;
+  margin: 28px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
