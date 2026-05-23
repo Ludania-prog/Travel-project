@@ -15,7 +15,7 @@ body {
   grid-template-columns: auto auto;
 }
 
-.grid-3-columns-whith-first-narrow {
+.grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 .grid-3-columns {
@@ -136,8 +136,20 @@ main h3 {
   padding: 10px;
 }
 
+.card-header.grid {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+}
+
 .img-responsive {
-  max-width: 100%;
+  display: block;
+  width: 100%;
+}
+
+.embed {
+  width: 100%;
+
+  aspect-ratio: 1/1;
 }
 
 section {
@@ -265,11 +277,14 @@ footer a {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
-  .img-responsive {
-    max-width: 100%;
-    margin: 0 auto;
-  }
+
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    display: none;
   }
 }
